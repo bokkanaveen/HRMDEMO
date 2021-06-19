@@ -2,6 +2,7 @@ package hrm.OrnageProject.Utilities;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.edge.EdgeDriver;
 import org.testng.Assert;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
@@ -10,9 +11,10 @@ public class Browser {
 	static WebDriver driver;
 	
 	public static WebDriver openBrowser() {
+		WebDriverManager.edgedriver().setup();
 		//System.setProperty("webdriver.chrome.driver","C:\\MY DOC\\SOFTWARE TOOLS\\Drivers\\chromedriver.exe");
-		WebDriverManager.chromedriver().setup();
-		driver=new ChromeDriver();
+		
+		driver=new EdgeDriver();
 		return driver;
 	}
 	public static void openURL() {

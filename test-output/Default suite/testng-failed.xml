@@ -3,14 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="hrm.OrnageProject.TestScripts.TC002">
+      <class name="hrm.OrnageProject.TestScripts.TC001">
         <methods>
           <include name="tearDown"/>
           <include name="verifyHRMLogin"/>
-          <include name="verifyHRMAddEmplyee"/>
           <include name="browserSetup"/>
         </methods>
-      </class> <!-- hrm.OrnageProject.TestScripts.TC002 -->
+      </class> <!-- hrm.OrnageProject.TestScripts.TC001 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
