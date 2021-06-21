@@ -5,6 +5,7 @@
     <classes>
       <class name="hrm.OrnageProject.TestScripts.TC001"/>
       <class name="hrm.OrnageProject.TestScripts.TC002"/>
+      <class name="com.JavaProject.Sample_Test"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
